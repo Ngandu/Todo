@@ -1,0 +1,44 @@
+/* Variables */
+:root {
+    --blue-dark: #173f5f;
+    --blue-light: #20639B;
+    --green: #3CAEA3;
+    --yellow: #F6D55C;
+    --red: #ED553B;
+    --white: #ffffff;
+}
+
+
+body{
+    background: #eeeeee;
+}
+
+.main_container{
+    margin-top: 50px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.navbar{
+background: var(--blue-dark);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: var(--white)
+}
+
+.row{
+    width: 100%;
+    padding: 20px;
+}
+p{
+    display: block;
+}
+
+.todo_buttons_bottom .btn{
+    margin: 10px;
+}
